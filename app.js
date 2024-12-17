@@ -15,7 +15,7 @@ const path = require("path");
 const app = express();
 
 // 서버 포트 설정
-const PORT = 3000;
+const PORT = 8000;
 
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ limit: "10mb", extended: true }));
